@@ -1,0 +1,41 @@
+.control-panel {
+  background-color: #fff;
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+}
+
+.format-actions {
+  margin-bottom: 15px;
+}
+
+.format-actions button {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 25px;
+  min-width: 25px;
+  padding: 0 6px;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,.1);
+}
+.format-actions button.active {
+  background-color: #ffa500;
+  color: #fff;
+}
+.format-actions button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.last-button {
+  margin-left: auto;
+}

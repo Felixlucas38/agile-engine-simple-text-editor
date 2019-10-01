@@ -1,0 +1,14 @@
+.editor {
+  padding: 15px;
+}
+.editor::selection, .editor *::selection  {
+  background-color: transparent;
+  color: inherit;
+}
+
+.editor-legend {
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 15px;
+}

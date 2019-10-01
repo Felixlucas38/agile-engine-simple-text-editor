@@ -1,0 +1,56 @@
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4));
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  max-width: 80%;
+  border-radius: 4px;
+  padding: 15px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 10px rgba(0,0,0,.4);
+}
+
+.modal-word {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  border: solid 2px #aaa;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.synonyms h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.synonyms ul {
+  max-height: 100px;
+  overflow-y: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.synonyms ul button {
+  cursor: pointer;
+  color: #ffa500;
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+}
+
+.close {
+  margin: 15px auto 0 auto;
+}
